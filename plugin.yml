@@ -1,21 +1,10 @@
-name: newCmds
-
-main: newCmds\Main
-
-api: 
-
-- 3.0.0
-
-- 4.0.0
-
+name: HealSystem
+main: HealSystem\Main
 author: Crow
+version: 1.0
+api: [3.0.0, 4.0.0]
 
- commands:
-
-  Heal:
-
-   description: Heal command
-
-   usage: "/Heal [Spieler]"
-
-   aliases: ["Heilen"]
+commands:
+ Heal:
+  description: "HeilSystem"
+  permission: Heal.cmd
