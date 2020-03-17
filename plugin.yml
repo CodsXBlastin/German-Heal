@@ -8,3 +8,4 @@ commands:
  Heal:
   description: "HeilSystem"
   permission: Heal.cmd
+  aliases: ["Heilen"]
