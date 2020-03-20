@@ -16,6 +16,7 @@ class Main extends PluginBase{
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args) : bool{
 
         switch($cmd->getName()){
+
             case "Heal":
                 if($sender instanceof Player){
 			if($sender->hasPermission("Heal.cmd")){
