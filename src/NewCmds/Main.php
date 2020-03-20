@@ -21,7 +21,7 @@ class Main extends PluginBase{
                 if($sender instanceof Player){
 			if($sender->hasPermission("Heal.cmd")){
 				$sender->setHealt(20);
-				$sender->sendMessage("Du Hast $sender->GetName() Geheilt");
+				$sender->sendMessage("Du Hast Dich Erfolgreich Geheilt");
 			}
 			   
                 }
