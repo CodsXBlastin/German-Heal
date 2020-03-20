@@ -1,6 +1,6 @@
 <?php
 
-namespace Crow;
+namespace NewCmds\Main;
 
 use pocketmine\Server;
 use pocketmine\Player;
